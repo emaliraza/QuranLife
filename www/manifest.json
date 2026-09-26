@@ -1,0 +1,13 @@
+{
+  "name": "Sukoon",
+  "short_name": "Sukoon",
+  "description": "Gratitude, purpose and peace. A gentle daily companion for young Muslims.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FBF5E9",
+  "theme_color": "#1F8A80",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

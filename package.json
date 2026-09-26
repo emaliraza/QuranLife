@@ -1,0 +1,35 @@
+{
+  "name": "sukoon-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sukoon. Gratitude, purpose and peace for young Muslims.",
+  "scripts": {
+    "sync": "cap sync",
+    "android": "cap open android",
+    "ios": "cap open ios",
+    "add:android": "cap add android",
+    "add:ios": "cap add ios",
+    "assets": "capacitor-assets generate --iconBackgroundColor '#1F8A80' --iconBackgroundColorDark '#0F1F1E' --splashBackgroundColor '#FBF5E9' --splashBackgroundColorDark '#0F1F1E'",
+    "serve": "npx --yes serve www -l 5173",
+    "test": "node tests/engine.test.js && python3 tests/ui.test.py 4",
+    "test:engine": "node tests/engine.test.js",
+    "test:ui": "python3 tests/ui.test.py 6"
+  },
+  "dependencies": {
+    "@capacitor-community/speech-recognition": "^6.0.1",
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/app": "^6.0.1",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/haptics": "^6.0.1",
+    "@capacitor/ios": "^6.1.2",
+    "@capacitor/local-notifications": "^6.1.0",
+    "@capacitor/preferences": "^6.0.2",
+    "@capacitor/splash-screen": "^6.0.2",
+    "@capacitor/status-bar": "^6.0.1",
+    "@revenuecat/purchases-capacitor": "^9.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.1.2"
+  }
+}
